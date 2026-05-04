@@ -1,0 +1,24 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/download/Oversite-latest.dmg",
+      "destination": "https://github.com/<OWNER>/<REPO>/releases/latest/download/Oversite_aarch64.dmg",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains; preload" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "interest-cohort=(), browsing-topics=()" },
+        { "key": "Content-Security-Policy", "value": "default-src 'self'; img-src 'self'; style-src 'self'; script-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'" }
+      ]
+    }
+  ]
+}
