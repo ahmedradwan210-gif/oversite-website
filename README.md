@@ -36,11 +36,4 @@ Vercel builds (no-op for static) and deploys automatically. First-time setup:
 
 ## DMG download URL
 
-`https://oversite.com/download/Oversite-latest.dmg` 302-redirects to `https://github.com/<OWNER>/<REPO>/releases/latest/download/Oversite_aarch64.dmg`. The `Oversite_aarch64.dmg` filename is version-stable by maintainer convention — see `PRJCTOVRSITE/RELEASES.md` for the rename-on-upload step that keeps the redirect target valid across releases.
-
-<!-- TODO: lock <OWNER>/<REPO> at first release per RELEASES.md.
-     Default per project_collaborator_timo memory note: <owner>/PRJCTOVRSITE
-     (assuming PRJCTOVRSITE is set to public-read by ship date). The literal
-     placeholder above also appears in vercel.json — both must be updated
-     together before the first vercel deploy goes live, otherwise the DMG
-     download button on the landing page redirects to a 404. -->
+`https://oversite.com/download/Oversite-latest.dmg` 302-redirects to `https://github.com/ahmedradwan210-gif/oversite-releases/releases/latest/download/Oversite_aarch64.dmg`. The `Oversite_aarch64.dmg` filename is version-stable by maintainer convention — see `PRJCTOVRSITE/RELEASES.md` for the rename-on-upload step that keeps the redirect target valid across releases.

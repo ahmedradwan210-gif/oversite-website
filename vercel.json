@@ -5,7 +5,7 @@
   "redirects": [
     {
       "source": "/download/Oversite-latest.dmg",
-      "destination": "https://github.com/<OWNER>/<REPO>/releases/latest/download/Oversite_aarch64.dmg",
+      "destination": "https://github.com/ahmedradwan210-gif/oversite-releases/releases/latest/download/Oversite_aarch64.dmg",
       "permanent": false
     }
   ],
