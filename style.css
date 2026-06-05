@@ -74,3 +74,25 @@ a {
   text-underline-offset: 2px;
 }
 a:hover { opacity: 0.8; }
+.compare-h { font-size: 1.4rem; margin: 2.5rem 0 0.5rem; }
+table.compare {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 2rem;
+  font-size: 0.95rem;
+}
+table.compare th, table.compare td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+table.compare thead th { color: var(--muted); font-weight: 600; }
+table.compare tbody th { font-weight: 600; color: var(--fg); white-space: nowrap; }
+table.compare td { color: var(--muted); }
+table.compare strong { color: var(--accent); font-weight: 600; }
+.blog-link { margin: 0 0 2rem; font-weight: 500; }
+@media (max-width: 480px) {
+  table.compare { font-size: 0.85rem; }
+  table.compare th, table.compare td { padding: 6px 6px; }
+}

@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Oversite — gesture-driven research companion for macOS</title>
-  <meta name="description" content="Oversite watches you read. Gesture at things you care about, hand the result to your AI. Local-first, telemetry-free.">
+  <title>Oversite — The open cursor for any AI</title>
+  <meta name="description" content="Point at what matters on your screen and hand it to the AI you chose — Claude, GPT, Gemini, or a local model — over MCP. Local-first, encrypted, telemetry-free.">
   <link rel="canonical" href="https://overssite.com/">
   <link rel="icon" href="/assets/favicon.ico">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link rel="alternate" type="application/atom+xml" href="https://github.com/ahmedradwan210-gif/oversite-releases/releases.atom" title="Oversite releases">
-  <meta property="og:title" content="Oversite">
-  <meta property="og:description" content="Gesture-driven research companion for macOS. Local-first, telemetry-free.">
+  <meta property="og:title" content="Oversite — The open cursor for any AI">
+  <meta property="og:description" content="Point at your screen, ask any AI, keep everything on your Mac. Open, local, and it remembers.">
   <meta property="og:image" content="https://overssite.com/assets/hero.png">
   <meta property="og:url" content="https://overssite.com/">
   <meta property="og:type" content="website">
@@ -19,12 +19,12 @@
 </head>
 <body>
   <main>
-    <h1>Oversite watches you read.</h1>
-    <p class="lede">Gesture at things you care about, hand the result to your AI.</p>
+    <h1>The open cursor for any AI.</h1>
+    <p class="lede">Your screen, your AI, your Mac. Gesture at what matters as you research, and hand it to the AI you chose — Claude, GPT, Gemini, or a model running on your own machine — over MCP.</p>
     <p class="privacy">
-      Telemetry-free, local-only, encryption at rest. No analytics, no cookies,
-      no third-party requests. Runs on your Mac; nothing leaves your machine
-      unless you copy it to your AI client yourself.
+      Telemetry-free, local-only, encrypted at rest. No analytics, no cookies,
+      no third-party requests. Capture runs on your Mac; nothing leaves unless
+      you hand it to your AI yourself.
     </p>
     <a class="download" href="/download/Oversite-latest.dmg">Download Oversite for macOS (aarch64)</a>
     <p class="gatekeeper">
@@ -32,6 +32,22 @@
       We're signed by "Oversite Dev" for v0.1; Apple Developer ID notarization comes in v0.2.
     </p>
     <img src="/assets/hero.png" alt="Oversite dashboard showing a captured circle gesture with OCR text and DOM context">
+
+    <h2 class="compare-h">How Oversite compares</h2>
+    <table class="compare">
+      <thead>
+        <tr><th></th><th>Magic Pointer</th><th>Clicky</th><th>Oversite</th></tr>
+      </thead>
+      <tbody>
+        <tr><th>Which AI</th><td>Gemini only</td><td>Claude only (hosted proxy)</td><td><strong>Any AI</strong> — Claude, GPT, Gemini, local Ollama</td></tr>
+        <tr><th>Where your screen goes</th><td>Google's cloud</td><td>A vendor cloud pipeline</td><td><strong>Stays on your Mac</strong></td></tr>
+        <tr><th>Memory</th><td>Forgets</td><td>Forgets when the tab closes</td><td><strong>Durable encrypted log</strong></td></tr>
+        <tr><th>How it points</th><td>Ambient hover (guesses)</td><td>—</td><td><strong>A deliberate gesture</strong></td></tr>
+        <tr><th>Open?</th><td>Closed</td><td>Closed</td><td><strong>Open, MCP-first</strong></td></tr>
+      </tbody>
+    </table>
+
+    <p class="blog-link"><a href="/blog.html">Why we're not building a Gemini-locked cursor →</a></p>
   </main>
 </body>
 </html>
